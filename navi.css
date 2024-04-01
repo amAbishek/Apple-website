@@ -1,0 +1,128 @@
+body {
+  width: 100%;
+  font-family: SF pro;
+  background-color: #fafafa;
+}
+.Mac {
+  width: 100%;
+  text-align: center;
+}
+.Mach1 {
+  width: 100%;
+}
+#Macmain {
+  width: 100%;
+}
+#Macmain img {
+  width: 60%;
+  height: 50%;
+}
+#Macimg {
+  width: 100%;
+  object-fit: cover;
+}
+#Macimg > img {
+  width: 100%;
+  height: 40%;
+}
+.iphone15pro {
+  width: 100%;
+  text-align: center;
+}
+.iphone15 {
+  width: 100%;
+  text-align: center;
+}
+.box {
+  width: 100%;
+  display: flex;
+  margin-top: 1%;
+}
+.watch {
+  width: 50%;
+  height: 600px;
+  background-color: black;
+  color: #fafafa;
+  text-align: center;
+  overflow: hidden;
+  margin-right: 1%;
+}
+
+#images1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.watch2 {
+  width: 50%;
+  height: 600px;
+  background-color: white;
+  text-align: center;
+  margin-right: 1%;
+}
+#images2 {
+  justify-content: center;
+  width: 50%;
+  height: 60%;
+}
+#images3 {
+  width: 100%;
+  object-fit: cover;
+  height: 110%;
+}
+#images4 {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+#images5 {
+  width: 100%;
+  object-fit: cover;
+  height: 80%;
+}
+#images6 {
+  width: 100%;
+  object-fit: cover;
+  height: 50%;
+}
+
+/* media query starts here  */
+@media screen and (max-width: 735px) {
+  .box {
+    width: 100%;
+    flex-direction: column;
+  }
+  .watch {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .watch2 {
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+  }
+  .footertext {
+    font-size: small;
+  }
+  .footer__links,
+  .footer__more,
+  .footer__copyright,
+  .links {
+    font-size: small;
+  }
+
+  .footer__links--column > a {
+    text-decoration: none;
+    color: black;
+  }
+  .footer__links--column > a:hover {
+    text-decoration: underline;
+  }
+  .footer__links--column-title {
+    background-color: grey;
+  }
+}
+/* ends here */
